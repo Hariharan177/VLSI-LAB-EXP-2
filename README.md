@@ -88,6 +88,7 @@ Elaborated Design:
 
 #3 Encoder_8to3:- Code:
 Code:
+```
 module encoder_8_to_3(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);�input d0,d1,d2,d3,d4,d5,d6,d7;
 output a0,a1,a2;
 or g1(a0,d1,d3,d5,d7);
@@ -130,6 +131,7 @@ begin
  end
 end 
 endmodule
+```
 
 OUTPUT:-
 
