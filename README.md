@@ -56,5 +56,84 @@ OUTPUT WAVEFORM
  <<< PASTE YOUR OUTPUT WAVEFORM >>>
 
 RESULT
+VERILOG CODE
+
+#1 DECODER3to8:-
+
+Code:
 
 
+OUTPUT WAVEFORM:
+
+Simulation:
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/178b6360-1d49-4436-87d8-9084218a5e9d)
+
+Elaborated Design:
+
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/f1208606-2a82-4f5d-952c-de05c9c776cc)
+
+#2 DEMULTIPLEXER 1to8:-
+
+Code:
+
+
+OUTPUT:-
+
+Simulation:
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/baca60cd-e1a5-4b61-9b75-01a67a4cf913)
+
+Elaborated Design:
+
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/510bbc75-3faf-49f5-9d53-3151ee8189e6)
+
+#3 Encoder_8to3:- Code:
+Code:
+module encoder_8_to_3(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);�input d0,d1,d2,d3,d4,d5,d6,d7;
+output a0,a1,a2;
+or g1(a0,d1,d3,d5,d7);
+or g2(a1,d2,d3,d6,d7);
+or g3(a2,d4,d5,d6,d7);
+endmodule
+
+OUTPUT:-
+
+Simulation:
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/277d518b-cf21-4131-aa89-d98f312fb116)
+
+Elaborated Design:
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/549e952f-0b07-467f-9177-4aee90faa9e3)
+
+#4 MAGNITUDE_COMPARATOR:- 
+Code:
+module comparator(a,b,eq,lt,gt);
+input [3:0] a,b;
+output reg eq,lt,gt;
+always @(a,b)
+begin
+ if (a==b)
+ begin
+  eq = 1'b1;
+  lt = 1'b0;
+  gt = 1'b0;
+ end
+ else if (a>b)
+begin
+  eq = 1'b0;
+  lt = 1'b0;
+  gt = 1'b1;
+ end
+ else
+ begin
+  eq = 1'b0;
+  lt = 1'b1;
+  gt = 1'b0;
+ end
+end 
+endmodule
+
+OUTPUT:-
+
+Simulation:
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/b723ad2a-79f2-401f-835d-ffb53dc75ada)
+Elaborated Design:
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/57c6e0e7-2b78-4f07-98b5-753d69e05f57)
