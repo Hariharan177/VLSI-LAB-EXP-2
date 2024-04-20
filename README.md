@@ -1,11 +1,31 @@
 SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
 
 AIM: 
- To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE.
-
+ To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Vivado Software.
+ 
 APPARATUS REQUIRED:
-Xilinx 14.7
-Spartan6 FPGA
+Vivado™ ML 2023.2
+
+PROCEDURE:
+
+Open Vivado: Launch Xilinx Vivado software on your computer.
+
+Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
+
+Project Settings: Follow the prompts to set up your project. Specify the project name, location, and select RTL project type.
+
+Add Design Files: Add your Verilog design files to the project. You can do this by right-clicking on "Design Sources" in the Sources window, then selecting "Add Sources". Choose your Verilog files from the file browser.
+
+Specify Simulation Settings: Go to "Simulation" > "Simulation Settings". Choose your simulation language (Verilog in this case) and simulation tool (Vivado Simulator).
+
+Run Simulation: Go to "Flow" > "Run Simulation" > "Run Behavioral Simulation". This will launch the Vivado Simulator and compile your design for simulation.
+
+Set Simulation Time: In the Vivado Simulator window, set the simulation time if it's not set automatically. This determines how long the simulation will run.
+
+Run Simulation: Start the simulation by clicking on the "Run" button in the simulation window.
+
+View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
+
 
 **LOGIC DIAGRAM**
 
