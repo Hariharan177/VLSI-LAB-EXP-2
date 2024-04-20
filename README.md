@@ -54,13 +54,6 @@ MAGNITUDE COMPARATOR
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/b2fe7a05-6bf7-4dcb-8f5d-28abbf7ea8c2)
 
 
-VERILOG CODE
-
-   <<< TYPE YOUR VERILOG CODE >>>
-
-OUTPUT WAVEFORM
- <<< PASTE YOUR OUTPUT WAVEFORM >>>
-
 RESULT
 VERILOG CODE
 
