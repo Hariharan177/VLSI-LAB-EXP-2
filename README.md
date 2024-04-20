@@ -204,11 +204,13 @@ endmodule
 ```
 OUTPUT:- 
 Simulation:
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/03153737-c78e-494a-80e9-c7a5ff4b9e0f)
 
 
 Eloborated Design:
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/5b1e7b7a-5c53-413e-9721-2dbed575ccdb)
 
 
 RESULT:
-
+imulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR is verified successfully using Vivado Software
 
