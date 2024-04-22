@@ -213,4 +213,3 @@ Eloborated Design:
 
 RESULT:
 Simulation and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR is verified successfully using Vivado Software.
-
