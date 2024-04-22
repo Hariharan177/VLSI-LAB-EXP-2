@@ -211,5 +211,7 @@ Eloborated Design:
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-2/assets/164841000/5b1e7b7a-5c53-413e-9721-2dbed575ccdb)
 
 
+
+
 RESULT:
 Simulation and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR is verified successfully using Vivado Software.
